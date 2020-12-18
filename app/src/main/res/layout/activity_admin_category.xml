@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add new Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear1_category_layout"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_marginTop="45dp"
+    android:layout_below="@+id/slogan_category">
+
+    <ImageView
+        android:id="@+id/t_shoes1"
+        android:layout_width="88dp"
+        android:layout_height="106dp"
+        android:src="@mipmap/shoes" />
+
+    <ImageView
+        android:id="@+id/t_shirts1"
+        android:layout_width="88dp"
+        android:layout_height="106dp"
+        android:src="@mipmap/sd" />
+
+    <ImageView
+        android:id="@+id/t_vatch1"
+        android:layout_width="88dp"
+        android:layout_height="106dp"
+        android:src="@mipmap/vatch" />
+
+    <ImageView
+        android:id="@+id/t_photo1"
+        android:layout_width="88dp"
+        android:layout_height="106dp"
+        android:src="@mipmap/photo" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linear1_category_layout">
+
+        <ImageView
+            android:id="@+id/t_shoes2"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/shoes" />
+
+        <ImageView
+            android:id="@+id/t_shirts2"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/sd" />
+
+        <ImageView
+            android:id="@+id/t_vatch2"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/vatch" />
+
+        <ImageView
+            android:id="@+id/t_photo2"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/photo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear3_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linear2_category_layout">
+
+        <ImageView
+            android:id="@+id/t_shoes3"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/shoes" />
+
+        <ImageView
+            android:id="@+id/t_shirts3"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/sd" />
+
+        <ImageView
+            android:id="@+id/t_vatch3"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/vatch" />
+
+        <ImageView
+            android:id="@+id/t_photo3"
+            android:layout_width="88dp"
+            android:layout_height="106dp"
+            android:src="@mipmap/photo" />
+    </LinearLayout>
+
+</RelativeLayout>
